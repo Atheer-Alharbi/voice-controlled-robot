@@ -145,4 +145,6 @@ Web Development + Speech Recognition + PHP + MySQL + Robot Control
 
 👩🏻‍💻 Project
 
-This project was developed as part of an Artificial Intelligence and Web Development task.
+This project demonstrates the integration of Artificial Intelligence and Web Development by using speech recognition to convert voice commands into text and control a robot through a web-based interface.
+
+⭐ **Voice-Controlled Robot Web Interface**
