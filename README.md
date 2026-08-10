@@ -69,3 +69,80 @@ The process works as follows:
 🐘 save_voice.php
       ↓
 🗄️ MySQL Database
+
+
+For example:
+
+User says: "move right"
+        ↓
+Speech is converted to text
+        ↓
+Text is sent to save_voice.php
+        ↓
+Command is stored in the voice_commands table
+🗄️ Database
+
+The project uses MySQL to store recognized voice commands.
+
+voice_commands Table
+Field	Description
+id	Unique command ID
+text	Recognized voice command
+created_at	Date and time of the command
+📂 Project Files
+voice-controlled-robot/
+│
+├── index.html
+├── save_voice.php
+├── update_command.php
+├── get_state.php
+├── db.php
+├── setup.sql
+└── photo.png
+🚀 How to Run
+1. Install XAMPP
+
+Start the following services:
+
+Apache
+MySQL
+2. Add the Project
+
+Place the project folder inside:
+
+xampp/htdocs/
+3. Set Up the Database
+
+Open phpMyAdmin and import:
+
+setup.sql
+
+This creates the required database tables.
+
+4. Open the Website
+
+Open the project through the local XAMPP server.
+
+5. Test the Controls
+
+Use the control buttons to send robot movement commands.
+
+For voice control, click:
+
+🎤 Speak
+
+Then say a command such as:
+
+move right
+
+The recognized speech will appear on the webpage and will be sent to the PHP backend and stored in the MySQL database.
+
+🎯 Project Goal
+
+The goal of this project is to develop an interactive web interface for robot control and demonstrate the integration of:
+
+Web Development + Speech Recognition + PHP + MySQL + Robot Control
+
+👩🏻‍💻 Project
+
+This project was developed as part of an Artificial Intelligence and Web Development task.
