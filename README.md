@@ -70,7 +70,6 @@ The process works as follows:
       ↓
 🗄️ MySQL Database
 
-
 For example:
 
 User says: "move right"
@@ -146,5 +145,3 @@ Web Development + Speech Recognition + PHP + MySQL + Robot Control
 👩🏻‍💻 Project
 
 This project demonstrates the integration of Artificial Intelligence and Web Development by using speech recognition to convert voice commands into text and control a robot through a web-based interface.
-
-⭐ **Voice-Controlled Robot Web Interface**
